@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <div class="max-w-7xl mx-auto px-4">
+        <div class="container mx-auto">
           <div class="flex justify-between">
             <div class="flex space-x-4">
               <span className="flex items-center py-5 px-2  text-xl font-bold">
