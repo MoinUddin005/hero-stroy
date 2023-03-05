@@ -1,4 +1,5 @@
 import React from "react";
+import Audio from "../../../public/images/Audio track (1).png"
 
 const OwnStroy = () => {
   return (
@@ -16,7 +17,7 @@ const OwnStroy = () => {
             </div>
         </div>
         <div class="flex-grow  p-2">
-            <img src="../../../public/images/Audio track (1).png" alt="" />
+            <img src={Audio} alt="" />
             
         </div>
       </div>

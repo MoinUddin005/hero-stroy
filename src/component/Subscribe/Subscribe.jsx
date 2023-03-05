@@ -1,4 +1,8 @@
 import React from 'react';
+import Vector from "../../../public/images/Vector.png"
+import Cloud from "../../../public/images/Cloud.png"
+import Lines from "../../../public/images/Lines.png"
+import Vector2 from "../../../public/images/Vector (2).png"
 
 const Subscribe = () => {
     return (
@@ -7,19 +11,19 @@ const Subscribe = () => {
                 <p className='font-bold text-base leading-9'>podcast Available on</p>
             </div>
             <div className='  flex items-center '>
-                <img  src="../../../public/images/Vector.png" alt="" />
+                <img  src={Vector} alt="" />
                 <p className='w-32 ml-2 font-semibold'>Apple Podcasts</p>
             </div>
             <div className=' flex items-center'>
-                <img  src="../../../public/images/Cloud.png" alt="" />
+                <img  src={Cloud} alt="" />
                 <p className='w-32 ml-2 font-semibold uppercase'> soundCloud </p>
             </div>
             <div className=' flex items-center'>
-                <img  src="../../../public/images/Lines.png" alt="" />
+                <img  src={Lines} alt="" />
                 <p className='w-32 ml-2 font-semibold'>Google Podcasts</p>
             </div>
             <div className=' flex items-center'>
-                <img  src="../../../public/images/Vector (2).png" alt="" />
+                <img  src={Vector2} alt="" />
                 <p className='w-32 ml-2 font-semibold'>Spotify</p>
             </div>
            
