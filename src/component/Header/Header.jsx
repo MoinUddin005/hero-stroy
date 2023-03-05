@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import logo from "../../../public/images/{.png";
 const Header = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const Header = () => {
           <div class="flex justify-between">
             <div class="flex space-x-4">
               <span className="flex items-center py-5 px-2  text-xl font-bold">
-                <img className="h-5 " src="../../../public/images/{.png" />
+                <img className="h-5 " src={logo} />
                 <Link to="/">Finsweet</Link>
               </span>
             </div>
